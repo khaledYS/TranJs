@@ -16,10 +16,14 @@ window.onscroll = ()=>{
         if(element.getBoundingClientRect().y <= height){
             element.classList.remove('tran')
             let classes = element.getAttribute('tran-data-class-to')
-            classes = classes.split(" ")
-            classes.forEach(clas => {
-                element.classList.add(clas)
-            });
+            if(classes.trim()){
+                classes = classes.split(" ")
+                classes.forEach(clas => {
+                    if(clas.trim()){
+                        element.classList.add(clas)
+                    }
+                });
+            }
         }
     });
 }
