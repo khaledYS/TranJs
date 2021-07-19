@@ -14,7 +14,7 @@
  if you like it a star will be the best
 
 
- # using
+ # installing
  you can use it by importing it from cdn links 
  or download [it](http://127.0.0.1:5500/tran/README.md)
  you should import it with
@@ -23,8 +23,25 @@
  * <script defer src="tran.js"></script>
  and the css file suppose to be imported in the head tag
  * <link rel="stylesheet" href="tran.css">
-
  and both of their links will change debends if you are importing it from cdn or you download it 
+
+
+ # Using
+ usign it is going to be some thing else 
+ its easy 
+ and i tried to give the best exprience and best and fast library
+ to use it 
+ after you include it in your html
+ you give the element that you want for him to be traned
+ you give him a "tran" class
+ like : 
+ <p class='tran'>Hello world from tranJs...</p>
+ and then you add the class that you want to replace it with tran class 
+ like so :
+ <p class="tran" tran-data-class-to="animation" >Hello world from tranJs...</p>
+
+ and magic happens !!!
+ Happy hacking😈!!
 
 
 
@@ -32,4 +49,6 @@
  # if there is some thing wrong ...
  if there is some thing wrong please pull a pr
  and we will see
+ and if there is any problem or some issue 
+ upload an issue and we will see about it 
  i guess we are pretty done

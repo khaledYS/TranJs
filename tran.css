@@ -1,4 +1,4 @@
-*{
+/* *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -43,7 +43,7 @@ body{
 }
 .love p {
     font-weight: 500;
-}
+} */
 .tran{
-    visibility: hidden;
+    visibility: hidden !important;
 }
