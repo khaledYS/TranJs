@@ -15,7 +15,11 @@ window.onscroll = ()=>{
     elements.forEach(element => {
         if(element.getBoundingClientRect().y <= height){
             element.classList.remove('tran')
-            element.classList.add(element.getAttribute('tarn-data-class-to'))
+            let classes = element.getAttribute('tran-data-class-to')
+            classes = classes.split(" ")
+            classes.forEach(clas => {
+                element.classList.add(clas)
+            });
         }
     });
 }
