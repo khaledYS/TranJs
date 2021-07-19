@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: #2b2b2b;
+    background: #1f1f1f;
+    overflow-x: hidden;
+}
+.the-love-container{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+.love{
+    color: black;
+    max-width: 59vw;
+    font-size: 29px;
+    font-family: sans-serif;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 15px 20px;
+
+    display: block;
+}
+.animated{
+    animation: mounted .5s ease-out;
+    opacity: 1;
+    transform: translateY(0%);
+}@keyframes mounted {
+    0%{
+        opacity: 0;
+        transform: translateY(100%);
+    }
+}
+.love > h1{
+    font-family: cursive;
+    font-weight: 400;
+}
+.love p {
+    font-weight: 500;
+}
+.tran{
+    visibility: hidden;
+}
