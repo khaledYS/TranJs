@@ -28,7 +28,7 @@ window.onscroll = ()=>{
     });
 }
 
-
+//
 
 
 // we want the effect to remove the class when the element is in the middle of the screen
