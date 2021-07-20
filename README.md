@@ -48,7 +48,6 @@ and if you wanna an html template
 </body>
 </html>
 ```
- and both of their links will change debends if you are importing it from cdn or you download it 
 
 
  # Using
