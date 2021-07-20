@@ -2,10 +2,10 @@
 
 
 
-# a library inspired by wow.js and i call it tarn.js
+# a library inspired by wow.js and i call it tran.js
  its smoother of wow.js bcz i dont use a lot of code
  and the idea is deffrent than wow.js
- the idea is once the element get visible in the client borwser it will take of the class tarn and replace it with any thing you want 
+ the idea is once the element get visible in the client borwser it will take of the class tran and replace it with any thing you want 
  and a little secret sence you came here
  i made tran a shortcut for traniton
  dont till anyone
