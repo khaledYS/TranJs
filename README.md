@@ -15,8 +15,8 @@
 
 
  # installing
- you can use it by importing it from cdn links 
- or download [it](http://127.0.0.1:5500/tran/README.md)
+ you can use it by importing it from links
+ or download [it](https://khaledys.github.io/TranJs/tranjs/)
  you should import it with
  in the html 
  first thing you wanna add is the js file and 
