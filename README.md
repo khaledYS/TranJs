@@ -38,7 +38,9 @@
  <p class='tran'>Hello world from tranJs...</p>
  and then you add the class that you want to replace it with tran class 
  like so :
+ ''' html 
  <p class="tran" tran-data-class-to="animation" >Hello world from tranJs...</p>
+ '''
 
  and magic happens !!!
  Happy hacking😈!!
