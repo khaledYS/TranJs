@@ -20,9 +20,33 @@
  you should import it with
  in the html 
  first thing you wanna add is the js file and 
- * <script defer src="tran.js"></script>
+ ```html
+    <script defer src="tran.js"></script>
+```
  and the css file suppose to be imported in the head tag
- * <link rel="stylesheet" href="tran.css">
+ ```html
+    <link rel="stylesheet" href="tran.css">
+```
+and if you wanna an html template
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- required tags  -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!--   importing tranJs Library   -->
+    <script defer src="tran.js"></script>
+    <link rel="stylesheet" href="tran.css">
+ 
+</head>
+<body>
+  hello world   
+</body>
+</html>
  and both of their links will change debends if you are importing it from cdn or you download it 
 
 
@@ -35,12 +59,14 @@
  you give the element that you want for him to be traned
  you give him a "tran" class
  like : 
+```html
  <p class='tran'>Hello world from tranJs...</p>
+```
  and then you add the class that you want to replace it with tran class 
  like so :
- ''' html 
+```html 
  <p class="tran" tran-data-class-to="animation" >Hello world from tranJs...</p>
- '''
+ ```
 
  and magic happens !!!
  Happy hacking😈!!
