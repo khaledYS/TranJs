@@ -16,8 +16,7 @@
 
  # installing
  you can use it by importing it from links
- or download [it](https://khaledys.github.io/TranJs/tranjs/)
- you should import it with
+ or you can download [css File](https://khaledys.github.io/TranJs/tranjs/tran.css) or [js File](https://khaledys.github.io/TranJs/tranjs/tran.js)
  in the html 
  first thing you wanna add is the js file and 
  ```html
