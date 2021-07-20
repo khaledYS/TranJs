@@ -21,11 +21,11 @@
  in the html 
  first thing you wanna add is the js file and 
  ```html
-    <script defer src="tran.js"></script>
+    <script defer src="https://khaledys.github.io/TranJs/tranjs/tran.js"></script>
 ```
  and the css file suppose to be imported in the head tag
  ```html
-    <link rel="stylesheet" href="tran.css">
+    <link rel="stylesheet" href="https://khaledys.github.io/TranJs/tranjs/tran.css">
 ```
 and if you wanna an html template
 ```html
@@ -39,8 +39,8 @@ and if you wanna an html template
     <title>Document</title>
     
     <!--   importing tranJs Library   -->
-    <script defer src="tran.js"></script>
-    <link rel="stylesheet" href="tran.css">
+    <script defer src="https://khaledys.github.io/TranJs/tranjs/tran.js"></script>
+    <link rel="stylesheet" href="https://khaledys.github.io/TranJs/tranjs/tran.js">
  
 </head>
 <body>
